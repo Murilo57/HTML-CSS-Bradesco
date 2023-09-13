@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="/embranco" method="post" style="border: solid 2px black;">
+        <label>Digite seu nome:</label>
+        <input type="text" class="name"><br>
+        <label>Digite um texto:</label>
+        <input type="text" class="text"><br><br>
+        <button>Ação</button><br><br>
+        <textarea name="area" id="" cols="30" rows="10"></textarea>
+    </form>
+
+    <form method="post" style="border: solid 2px red;">
+        <h2>Types do botão</h2>
+        <button type="submit">Subit</button>
+        <p>O type <strong>submit</strong> envia os dados do formulário á págia-destino do atributo actions</p>
+
+        <button type="reset">Reset</button>
+        <p>O type <strong>reset</strong> redefine todos os campos para padrão, assim que acionado</p>
+
+        <button type="button">Button</button>
+        <p>O type <strong>button</strong> não realiza nenhuma ação, a não ser que seja acionada via codificação <strong>JavaScript</strong></p>
+
+    </form>
+</body>
+</html>
