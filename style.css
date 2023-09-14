@@ -1,0 +1,22 @@
+body {
+    background-color: green;
+}
+
+/*Teste modificando uma lista
+Propriedades list-style para estilizar os elementos da lista não ordenada
+
+ºCircle - ul {list-style-type:circle;} 
+I Numero romano- list-style-type: upper-roman;
+
+Posição de uma lista
+Inside - ul {list-style-position: inside;}
+
+Adicionando uma imagem a cada item da lista
+*/
+
+
+ul {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  list-style-image: url('https://cdn-icons-png.flaticon.com/512/888/888859.png');
+}
