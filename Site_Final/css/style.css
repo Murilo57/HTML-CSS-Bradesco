@@ -49,7 +49,7 @@ nav ul li {
     
 }
 #banner img {
-    width: 100%;
+    width: 100%; margin-bottom: 0;
 }
 
 .img{
@@ -123,3 +123,17 @@ nav ul li {
 .close:hover {
     background-color: #b50909;
 }
+
+footer {
+    width: 100%;
+    height: 18%;
+    background-color: #b50909;
+    color: #fff;
+    position: relative;
+    float: left;
+    font-family: 'verdana';
+}
+
+ /*position:relative; e o float:left é utilizado para deixar um ao lado do outro*/
+footer .footer-text{width:30%; margin:1%; position:relative; float:left;}
+footer .footer-text a {color: #fff}
