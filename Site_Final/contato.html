@@ -30,4 +30,36 @@
         <div class="img-titulo">
             <img src="img/contato.png" alt="imagem de sobre">
         </div>
+
+        <section id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="nome">
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required="required" name="nome">
+                </p>
+                <p class="fone">
+                    <label for="fone">Fone:</label> <br>
+                    <input type="phone" name="fone" id="foneid" placeholder="(xx)xxxx-xxxx">
+                </p>
+                <p>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" required="required">
+                </p>
+                <p>
+                    <textarea placeholder="mensagem" required="required"></textarea>
+                </p>    
+                <button type="submit" form="meu_form">Enviar</button>
+            </form>
+
+            <div id="conta-data">
+                <h4>Code - Desenvolvimento de sites</h4>
+                <h5><img src="img/icoadress.png" alt="endereço"> Avenida Novos Conhecimentos nº 2016</h5>
+                <h5><img src="img/icoTelefone.png" alt="Telefone"> + 55 11 9999-9999</h5>
+                <h5>contato@code.com.br</h5>
+                <h5><img src="img/icoface.png" alt="facebook">facebook.com/codedev</h5>
+                <h5><img src="img/icoinsta.png" alt="instagram">@codedev</h5>
+            </div>
+        </section>
+    </div>    
 </body>
+</html>
